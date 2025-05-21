@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ==LINKING EXTERNAL FONT== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Encode+Sans:wght@100..900&family=Forum&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Gothic+Expanded+One&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ==LINKING EXTERNAL ICONS== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ==LINKING EXTERNAL CSS== -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- ==NAVBAR SECTION STARTS HERE== -->
+    <header class="header-container">
+      <div class="navbar-section">
+        <div class="navbar-logo">
+          <img src="images/My logo.png" alt="" />
+        </div>
+
+        <div>
+          <nav>
+            <ul class="navbar-links">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Work</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="navbar-contact-icons">
+          <div onclick="github()">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div  onclick="whatsapp()">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div  onclick="email()">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+
+        <div class="navbar-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <!-- ==NAVBAR SECTION ENDS HERE== -->
+
+      <!-- ==HERO SECTION STARTS HERE== -->
+      <div class="hero-container">
+        <div class="hero-description">
+          <h3>
+            <img src="images/emoji.svg" alt="" />
+            HELLO! I'M OKWODU CYNTHIA
+          </h3>
+          <h1>I'm a Full Stack Software Developer & Graphic Designer</h1>
+          <p>
+            I build dynamic, user-friendly web applications while crafting
+            visually stunning designs that enhance user experiences.
+          </p>
+          <button onclick="connect()">
+            <i class="fa-solid fa-check"></i>
+            Let's Talk
+          </button>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/hero-pic.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- ==HERO SECTION ENDS HERE== -->
+    <main>
+      <!-- ==SERVICE SECTION STARTS HERE== -->
+      <section class="Services-container">
+        <div class="services-heading">
+          <span>SERVICES</span>
+          <h1>Provision of Services Tailored to Your Needs</h1>
+          <p>
+            I specialize in the creation of impactful online presences, building
+            scalable, secure and reliable web applications using various
+            frameworks and technologiess for e-commerce, businesses, and brands.
+            My portfolio demonstrates my ability to build functional and
+            user-friendly websites that achieve specific objectives, whether
+            driving sales, providing key information, or fostering brand
+            loyalty. Complementing my development skills, my background in
+            graphic design allows me to craft visually compelling interfaces
+            that elevate the overall user experience and reinforce brand
+            messaging.
+          </p>
+        </div>
+
+        <div class="Services-images">
+          <div class="first-image">
+            <img src="images/web-1.PNG" alt="" />
+            <h1>E-commerce Web applications</h1>
+            <a href=""></a>
+          </div>
+          <div class="second-image">
+            <img src="images/web-02.PNG" alt="" />
+            <h1>Brand Website</h1>
+            <a href="https://painting-services-five.vercel.app/" target="_blank"
+              >Click here to view site</a
+            >
+          </div>
+          <div class="third-image">
+            <img src="images/web-002.PNG" alt="" />
+            <h1>Business Websites</h1>
+            <a href="https://restaurant-vault.vercel.app/" target="_blank"
+              >Click here to view site</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ==SERVICE SECTION ENDS HERE== -->
+
+      <!-- ==WORK SECTION STARTS HERE== -->
+      <section class="work-container">
+        <div class="work-discription">
+          <span>Work</span>
+          <h1>My Creative Playground</h1>
+        </div>
+
+        <div class="work-gallery">
+          <div class="work-first">
+            <img src="images/work-01.jpg" alt="" />
+          </div>
+          <div class="work-second">
+            <img src="images/design1.png" alt="" />
+          </div>
+          <div class="work-third">
+            <img src="images/work-02.jpg" alt="" />
+          </div>
+          <div class="work-fourth">
+            <img src="images/work-03.jpg" alt="" />
+          </div>
+          <div class="work-fifth">
+            <img src="images/work-04.jpg" alt="" />
+          </div>
+          <div class="work-sixth">
+            <img src="images/work-05.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- ==WORK SECTION ENDS HERE== -->
+
+      <!-- ==ABOUT SECTION STARTS HERE== -->
+      <section>
+        <div class="about-us-container">
+          <div class="about-us-image">
+            <img src="images/about-image.png" alt="" />
+          </div>
+
+          <div class="about-description">
+            <span>ABOUT</span>
+            <h1>Empowering Digital Innovation through Code & Design</h1>
+            <p>
+              Hey dear! i'm Okwodu Cynthia a passionate and detail-oriented
+              Full-Stack Software Developer and Graphic Designer with a deep
+              love for creating intuitive digital experiences. With expertise in
+              front-end and back-end development, I build seamless and scalable
+              applications that enhance user engagement and drive innovation.
+            </p>
+            <br />
+            <p>
+              My knowledge of modern frameworks, databases, and cloud
+              technologies allows me to craft efficient solutions tailored to
+              unique business needs. Beyond coding, I bring creativity to life
+              through graphic design, transforming ideas into visually stunning
+              and meaningful designs. I merge aesthetics with functionality to
+              create compelling visuals that communicate effectively. I thrive
+              in dynamic environments, collaborating with teams to solve complex
+              challenges and push creative boundaries. Whether designing
+              intuitive interfaces or engineering robust software solutions, I
+              am dedicated to delivering excellence and innovation.
+            </p>
+            <br>
+            <p>
+              Contact us: <br>
+              Email- Okwoducynthia@gmail.com, <br>
+              whatsapp- +234-814-753-5731. <br>
+              github- Okwoducynthia
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ==ABOUT SECTION ENDS HERE== -->
+
+      <!-- ==TESTIMONIAL SECTION STARTS HERE== -->
+      <section class="testimonial-container">
+        <div class="testimonial-heading">
+          <span>TESTIMONIAL</span>
+          <h1>What Clients Say</h1>
+        </div>
+
+        <div class="testimonial-section">
+          <div class="testimonial-image">
+            <img src="images/testimonial-image.jpg" alt="" />
+          </div>
+
+          <div class="testimonial-description">
+            <i class="fa-solid fa-quote-right"></i>
+            <p>
+              "Cynthia has consistently demonstrated expertise as a full-stack
+              developer, Her ability to develop seamless, scalable, and
+              high-performing applications is unmatched. With a deep
+              understanding of both front-end and back-end technologies, she
+              ensures that every product is optimized for efficiency and user
+              experience. Highly professional, creative, and easy to collaborate
+              with. I can’t recommend her enough!
+            </p>
+            <h3>
+              Edafe Christopher, Creative Director at Tech world innovations
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ==TESTIMONIAL SECTION ENDS HERE== -->
+
+    <!-- ==FOOTER SECTION STARTS HERE== -->
+    <footer class="footer-container">
+      <div class="footer-description">
+        <div class="footer-heading">
+          <h1>I'm Available for Freelance Projects</h1>
+          <p>
+            Feel free to initiate a project and let's explore how we can
+            collaborate.
+          </p>
+        </div>
+
+        <div class="footer-buttons">
+          <button onclick="connect()">
+            <i class="fa-solid fa-check"></i>
+            LET'S CONNECT
+          </button>
+          <button  onclick="email()">
+            <i class="fa-regular fa-clipboard"></i>
+            COPY EMAIL
+          </button>
+        </div>
+      </div>
+
+      <div class="empty-div"></div>
+
+      <div class="footer-navbar">
+        <div>
+          <nav>
+            <ul class="footer-links">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Work</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-contact-icons">
+          <div>
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-div"></div>
+      <p class="Copyright">Copyright © 2025 Illustrator Portfolio</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
