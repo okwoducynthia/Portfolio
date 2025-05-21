@@ -771,7 +771,6 @@
   .hero-image img {
     width: 90%;
     height: 40vh;
-    margin-top: 20px;
   }
   .hero-description h1 {
     font-size: 26px;
@@ -848,8 +847,3 @@
   }
 }
 
-@media (max-width: 390px) {
-  .hero-image img {
-    margin-top: -20px;
-  } 
-}
