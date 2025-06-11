@@ -21,15 +21,12 @@
 /* ==NAVBAR SECTION STARTS HERE== */
 .header-container {
   background-color: var(--light-navy-color);
-  padding-bottom: 80px;
 }
 .navbar-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 30px;
-  padding-top: 10px;
-  margin-bottom: 2.5rem;
 }
 .navbar-logo {
   width: 20%;
@@ -74,6 +71,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 100vh;
 }
 .hero-container div {
   width: 40%;
@@ -140,6 +138,7 @@
 .Services-container {
   background: linear-gradient(rgba(0, 0, 0, 0.507)), var(--navy-color);
   padding-top: 90px;
+  padding-bottom: 70px;
   color: var(--white-color);
 }
 .services-heading {
@@ -174,10 +173,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 70px;
 }
 .Services-images div {
-  width: 33%
+  width: 33%;
 }
 .Services-images div img {
   border-radius: 30px;
@@ -641,9 +639,6 @@
   .hero-description button {
     margin-bottom: 40px;
   }
-  .hero-container div {
-    width: 80%;
-  }
   .hero-image img {
     width: 60%;
     height: 60vh;
@@ -725,18 +720,21 @@
     flex-direction: column;
   }
   .about-us-container div {
-    width: 70%;
+    width: 90%;
   }
-  .about-us-image img {
+  .about-us-image {
+    text-align: center;
+  }
+   .about-us-image img {
     height: 65vh;
-    width: 100%;
+    width: 85%;
     margin-bottom: 30px;
   }
   .testimonial-section {
     flex-direction: column;
   }
   .testimonial-section div {
-    width: 70%;
+    width: 90%;
   }
   .testimonial-image img {
     width: 100%;
@@ -839,4 +837,3 @@
     font-size: 29px;
   }
 }
-
