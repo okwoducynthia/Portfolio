@@ -783,14 +783,13 @@
   .Services-images div {
     height: 45vh;
   }
-  .services-heading {
-    text-align: left
-  }
   .services-heading h1 {
+    text-align: left;
     font-size: 25px;
     width: 90%;
   }
   .services-heading p {
+    text-align: left;
     width: 95%;
   }
   .work-gallery div {
