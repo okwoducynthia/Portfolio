@@ -783,6 +783,9 @@
   .Services-images div {
     height: 45vh;
   }
+  .services-heading {
+    text-align: left
+  }
   .services-heading h1 {
     font-size: 25px;
     width: 90%;
