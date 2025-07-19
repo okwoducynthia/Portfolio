@@ -788,9 +788,13 @@
     font-size: 25px;
     width: 90%;
   }
+  .services-heading {
+    width: 90%;
+    margin: auto;
+  }
   .services-heading p {
     text-align: left;
-    width: 95%;
+    width: 100%;
   }
   .work-gallery div {
     height: 50vh;
